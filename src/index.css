@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,15 +13,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: start;
-  width: 50%;
-  height: 100lvh;
 }
 
 a {
@@ -38,7 +31,7 @@ body {
   justify-items: center;
   align-items: center;
   place-items: center;
-  min-width: 320px;
+  width: 100%;
   min-height: 100vh;
 }
 
