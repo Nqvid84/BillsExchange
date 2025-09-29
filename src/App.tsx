@@ -38,7 +38,7 @@ const App: React.FC = () => {
         <p>Navid Neisi</p>
         <div className="flex flex-row gap-4 justify-center items-center">
           <a className=" text-blue-500 bg-blue-500/20 rounded-lg px-4 py-1" href="https://github.com/Nqvid84/BillsExchange/blob/main/src/utils/exchange.ts">TS Code</a>
-          <a className=" text-blue-500 bg-blue-500/20 rounded-lg px-4 py-1" href="https://github.com/Nqvid84/BillsExchange/blob/main/src/utils/exchange.ts">CPP Code</a>
+          <a className=" text-blue-500 bg-blue-500/20 rounded-lg px-4 py-1" href="https://github.com/Nqvid84/BillsExchange/blob/main/src/utils/exchange.cpp">CPP Code</a>
         </div>
       </div>
     </div>
