@@ -20,8 +20,8 @@ const CardsComponent = ({ count, bill }: CardsProps) => {
           <Bill key={index} index={index} bill={bill} />
         ))}
       </div>
-      <span className="text-3xl font-semibold mb-2">{bill}</span>
-      <span className="text-xl font-medium text-gray-700">{count}</span>
+      <span className="text-lg font-semibold mb-2">{bill}</span>
+      <span className="text-base font-medium text-gray-700">{count}</span>
 
     </div>
   )

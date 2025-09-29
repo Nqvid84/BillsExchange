@@ -17,7 +17,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen min-w-screen flex flex-col items-center justify-center bg-gradient-to-tr from-gray-50 to-gray-100 text-gray-900 px-6">
-      <h1 className="text-4xl md:text-5xl font-bold mb-8 tracking-tight">
+      <h1 className="text-lg md:text-xl font-bold mb-8 tracking-tight">
         Cash Exchange
       </h1>
 
@@ -33,6 +33,13 @@ const App: React.FC = () => {
         {Object.entries(exchange).map(([bill, count]) => (
           <Cards bill={bill as unknown as bills} count={count} />
         ))}
+      </div>
+      <div className="fixed bottom-4 w-full flex justify-between items-center px-4">
+        <p>Navid Neisi</p>
+        <div className="flex flex-row gap-4 justify-center items-center">
+          <a className=" text-blue-500 bg-blue-500/20 rounded-lg px-4 py-1" href="https://github.com/Nqvid84/BillsExchange/blob/main/src/utils/exchange.ts">TS Code</a>
+          <a className=" text-blue-500 bg-blue-500/20 rounded-lg px-4 py-1" href="https://github.com/Nqvid84/BillsExchange/blob/main/src/utils/exchange.ts">CPP Code</a>
+        </div>
       </div>
     </div>
   );
